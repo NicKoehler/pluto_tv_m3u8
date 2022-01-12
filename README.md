@@ -5,11 +5,19 @@
 
 ## Installation
 
-```bash
+```sh
 python -m pip install git+https://github.com/nickoehler/pluto_tv_m3u8
 ```
 
 ## Usage
+
+Use the following command to generate a new m3u8 file
+
+```sh
+python -m pluto_tv_m3u8
+```
+
+If you want to integrate the lib in your script just import it
 
 ```python
 from pluto_tv_m3u8 import Pluto

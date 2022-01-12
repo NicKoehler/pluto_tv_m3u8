@@ -131,7 +131,7 @@ class Pluto:
 
         return "\n\n".join(result)
 
-    def write_m3u8(self, filename="pluto") -> None:
+    def write_m3u8(self, filename="pluto_tv") -> None:
         """
         Writes the m3u8 file to disk
 
